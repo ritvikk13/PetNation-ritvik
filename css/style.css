@@ -1,0 +1,156 @@
+
+/* Universal  */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+       
+}
+/* Ending */
+
+span{
+    font-size: 20px;
+}
+
+/* For Respnsive Menu */
+
+ul li{
+    display: inline-block;
+    margin: 3px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.wr2btn{    width: 137px;
+    background-color: transparent;
+    height: 35px;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 10px;
+}
+/* Wrap2 backgroud img */
+
+.dogbg{
+    background: url("../img/dogwithbg.png");
+   background-repeat: no-repeat;
+   background-position:right;
+   background-size: cover;
+   height: 244px;
+   
+   
+}
+
+.catbg{
+
+    background: url("../img/catwithbg.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    height: 244px;
+
+}
+/* Start of Wrap6 */
+.wrap6{
+
+    background: url("../img/wrap6.png");
+    background-repeat: no-repeat;
+    
+    
+    background-size: cover;
+
+}
+/* Ending */
+
+.footstepsbg{
+    background: url("../img/foot.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+}
+.resspan{
+    font-size: 28px;
+         display: none;
+         text-align: end;
+}
+/* Starting Wrap8 */
+.wrap8{
+    background: url("../img/ccat8.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+}
+
+.bgwp8{
+    background: url("../img/xyz.png");
+    background-repeat: no-repeat;
+    padding: 10px;
+    
+    
+
+}
+
+.bgwp8one{
+    background: url("../img/white.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 14px;
+
+}
+/* ending */
+
+/* start wrap9 */
+.wr9img1{
+    background: url("../img/board.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* ending wp9 */
+
+/* starting wrap10 */
+.wrap10{
+
+
+    background: url("../img/bg10.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+}
+
+/* ending */
+
+/*  Footer Start */
+.footer{
+    background: url("../img/footer.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    color: white;
+}
+/* Ending Footer */
+
+
+/* Responsive  */
+
+@media only Screen and (max-width:904px){
+
+    .responnone{
+        display: none;
+    }
+
+    .resspan{
+        display: block;
+
+    }
+    
+    ul li{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .logo{
+        display: flex; 
+     justify-content: space-between;
+    }
+}
